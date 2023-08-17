@@ -84,6 +84,9 @@ button{
 .mrt48{
     margin-top: 48px;
 }
+.mrt34{
+    margin-top: 34px;
+}
 /* HERO */
 .hero{
     display: flex;
@@ -202,4 +205,22 @@ button{
 }
 .txt{
     padding-top: 12px;
+}
+/* events */
+.events{
+    padding-top: 59px;
+    padding-left: 262px;
+}
+/* .galary{
+    display: flex;
+
+} */
+.events-txt{
+    max-width: 440px;
+    /* margin-bottom: 66px; */
+}
+.img{
+    width: 934px;
+    height: 1162px;
+    background-image:url(/img/Group\ 2087325526.jpg) ;
 }
