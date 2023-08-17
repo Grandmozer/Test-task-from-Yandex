@@ -1,0 +1,21 @@
+@font-face {
+    font-family: "YS Text Regular";
+    font-style: normal;
+    font-weight: 400;
+    src: local("YS Text Regular"),
+         url(https://yastatic.net/s3/home/fonts/ys/4/text-regular.woff)
+}
+@font-face {
+font-family: "YS Text Medium";
+font-style: normal;
+font-weight: 500;
+src: local("YS Text Medium"),
+        url(https://yastatic.net/s3/home/fonts/ys/4/text-medium.woff)
+}
+@font-face {
+font-family: "YS Text Black";
+font-style: normal;
+font-weight: 900;
+src: local("YS Text Black"),
+        url(https://yastatic.net/s3/home/fonts/ys/4/text-black.woff)
+}

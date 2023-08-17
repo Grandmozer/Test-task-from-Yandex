@@ -1,0 +1,205 @@
+:root{
+    --background-color:  var(--linear, linear-gradient(0deg, rgba(255, 255, 255, 1.0) 10%, rgba(255, 255, 255, 0.20) 100%), linear-gradient(90deg, #FF5C4D 0%, #EB469F 25%, #8341EF 72.00%, #3F68F9 100%));
+    --btn:#FFDE40;
+    --btn-hover:#ffc640ef;
+    --white:#ffff;
+    --price-old:linear-gradient(0deg, rgba(255, 255, 255, 0.63) 0%, rgba(255, 255, 255, 0.63) 100%), radial-gradient(141.42% 141.42% at 100.00% -0.00%, #E0B8FF 0%, #B6B9FF 100%);
+    --price-new:radial-gradient(141.42% 141.42% at 100.00% -0.00%, #E0B8FF 0%, #B6B9FF 100%);
+}
+
+html {
+    font-family: "YS Text Regular", Arial, Helvetica, sans-serif;
+}
+h1,h2,h3,p{
+    text-align: left;
+}
+h1{
+    color: #21201F;
+    font-family:"YS Text Black";
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 100%; /* 72px */
+    letter-spacing: -1.44px;
+}
+h2{
+    color: #21201F;
+    font-family: "YS Text Black";
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 100%; /* 56px */
+    letter-spacing: -1.12px;
+}
+h3{
+    color: #21201F;
+    font-family:"YS Text Black";
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 100%; /* 48px */
+    letter-spacing: -0.96px;
+}
+p{
+    color: #21201F;
+    font-family:"YS Text Medium";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%; /* 28.8px */
+}
+button{
+    border: none;
+}
+.container { 
+    display: grid;
+}
+.btn{
+    padding: 24px 48px;
+    background: var(--btn);
+    box-shadow: 0px 4px 98px 0px rgba(255, 222, 64, 0.59);
+    border-radius: 36px;
+    color: #21201F;
+    text-align: right;
+    font-family: "YS Text Medium";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 22px; /* 91.667% */
+    cursor: pointer;
+}
+.btn:active{
+    background: var(--btn-hover);
+    box-shadow: 0px 4px 98px 0px rgba(255, 201, 64, 0.567);
+}
+.z-index-plus{
+    z-index: 2;
+}
+.text-center {
+    text-align: center !important;
+}
+.title{
+    max-width: 649px;
+}
+.mrt48{
+    margin-top: 48px;
+}
+/* HERO */
+.hero{
+    display: flex;
+    padding-bottom: 116px;
+}
+.bg{
+    width: 100%;
+    height: 804px;
+    position:absolute;
+    opacity: 0.22;
+    background: var(--background-color);
+}
+.hero-left{
+    padding-left: 262px;
+    padding-top: 124px ;
+}
+.logo{
+    width: 176px;
+    height: 50.129px;
+    padding-bottom: 60px;
+    flex-shrink: 0;
+}
+.full-title{
+    Width:420px;
+    Height:196px;
+}
+.hero-right{
+    /* display: flex; */
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    position: relative;
+}
+.justify-content{
+    padding-bottom: 36px;
+    display: flex;
+    justify-content: space-between;
+}
+.hero-text{
+    max-width: 413px;
+    padding-top: 5px;
+    line-height: 126%;
+}
+.price{
+    height: 33px;
+    padding-right: 17px;
+    position: absolute;
+    border-radius: 500px;
+    background: var(--price-old);
+    color: #808080;
+    font-family: "YS Text Medium";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%;
+    top: 58%;
+    right: 61%;
+    text-decoration: line-through;
+}
+.price-actual{
+    padding-left: 14px;
+    padding-bottom: 2px;
+    padding-right: 13px;
+    border-radius: 500px;
+    background: var(--price-new);
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: #2E2C21;
+    font-family:"YS Text Medium";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%; /* 28.8px */
+}
+.img-elips,
+.img-smkt,
+.img-text{
+    position: absolute;
+}
+.img-elips{
+    left: -138px;
+}
+.img-smkt{
+    top: 6%;
+    left: -138px;
+}
+.img-text{
+    top: 58%;
+    left: 89px;
+    z-index: 2;
+}
+/* advantages */
+.advantages{
+    padding-left: 262px;
+    padding-bottom: 128px;
+}
+.cards{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    min-height: 96%;
+    list-style: none;
+    padding-top: 42px;
+}
+.card:not(:nth-child(2n)) {
+    width: 360px;
+    margin-right: 112px;
+}
+.txt:not(:nth-child(2)) {
+    padding-top: 14px;
+
+}
+.card:not(:nth-child(odd)) {
+    max-width: 400px;
+}
+.txt{
+    padding-top: 12px;
+}
