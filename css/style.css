@@ -87,7 +87,9 @@ button{
 .mrt34{
     margin-top: 34px;
 }
+
 /* HERO */
+
 .hero{
     display: flex;
     padding-bottom: 116px;
@@ -128,10 +130,20 @@ button{
     max-width: 413px;
     padding-top: 5px;
     line-height: 126%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    color: #21201F;
+    font-family:"YS Text Medium";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 127%; /* 28.8px */
 }
 .price{
     height: 33px;
     padding-right: 17px;
+    margin-left: 28px;
     position: absolute;
     border-radius: 500px;
     background: var(--price-old);
@@ -141,8 +153,8 @@ button{
     font-style: normal;
     font-weight: 500;
     line-height: 120%;
-    top: 58%;
-    right: 61%;
+    /* top: 53.3%;
+    right: 61%; */
     text-decoration: line-through;
 }
 .price-actual{
@@ -179,7 +191,9 @@ button{
     left: 89px;
     z-index: 2;
 }
+
 /* advantages */
+
 .advantages{
     padding-left: 262px;
     padding-bottom: 128px;
@@ -206,21 +220,72 @@ button{
 .txt{
     padding-top: 12px;
 }
+
 /* events */
+
 .events{
     padding-top: 59px;
     padding-left: 262px;
+    padding-bottom: 94px;
 }
-/* .galary{
+.galary{
+    width: 100%;
     display: flex;
-
-} */
+}
 .events-txt{
     max-width: 440px;
     /* margin-bottom: 66px; */
 }
 .img{
-    width: 934px;
-    height: 1162px;
-    background-image:url(/img/Group\ 2087325526.jpg) ;
+    height: 1255px;
+    background-position: -29px 72px;
+    background-repeat: no-repeat;
+    background-size: auto;
+    /* background-size: auto; */
+    background-image:url(/img/Group\ 2087325526.jpg);
+}
+.icons{
+    display: flex;
+}
+.point,
+.smkt,
+.cfee{
+    width: 100px;
+    height: 100px; 
+    background-size: 100px;
+    background-repeat: no-repeat;
+    z-index: 2;
+}
+.point{
+    background-image: url(/img/cfee0016.png);
+}
+.smkt{
+    background-image: url(/img/smkt0008\ 2.png);
+}
+.cfee{
+    background-image: url(/img/smkt0010\ 6.png);
+}
+
+/* plus */
+
+.plus{
+    padding-left: 261px;
+    display: flex;
+}
+.w400{
+    width: 419px;
+}
+.mrt34{
+    margin-top: 34px; 
+}
+.smkt-cloud{
+    overflow: visible;
+    background-size: cover;
+    background-position: center;
+    background-image:url(/img/Group\ 1.png);
+    background-repeat: no-repeat;
+}
+.div{
+    width: 689.6px;
+    height: 423.6px;
 }
