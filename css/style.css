@@ -225,8 +225,9 @@ button{
 
 .events{
     padding-top: 59px;
-    padding-left: 262px;
-    padding-bottom: 94px;
+    /* margin-left: 262px; */
+    /* padding-bottom: 94px;     */
+    position: relative;
 }
 .galary{
     width: 100%;
@@ -238,31 +239,45 @@ button{
 }
 .img{
     height: 1255px;
-    background-position: -29px 72px;
+    background-position: -68px -56px;
     background-repeat: no-repeat;
     background-size: auto;
-    /* background-size: auto; */
-    background-image:url(/img/Group\ 2087325526.jpg);
+    background-image:url(/img/Group\ 2.png);
+    overflow: visible;
 }
 .icons{
+    height: 1304px;
+    position: absolute;
     display: flex;
+    /* justify-content: flex-end; */
+}
+.mrr{
+    margin-left: 262px;
+    
 }
 .point,
 .smkt,
 .cfee{
-    width: 100px;
-    height: 100px; 
-    background-size: 100px;
     background-repeat: no-repeat;
-    z-index: 2;
+    background-position: center;
+    z-index: 4;
 }
 .point{
+    width: 397.8px;
+    height: 439px;
+    order: 3;
+    /* display: flex;
+    justify-content: flex-end; */
     background-image: url(/img/cfee0016.png);
 }
 .smkt{
-    background-image: url(/img/smkt0008\ 2.png);
+    width: 320px;
+    height: 320px;
+    /* background-image: url(/img/smkt0008\ 2.png); */
 }
 .cfee{
+    width: 396.065px;
+    height: 494.466px;
     background-image: url(/img/smkt0010\ 6.png);
 }
 
@@ -271,6 +286,7 @@ button{
 .plus{
     padding-left: 261px;
     display: flex;
+    margin-top: 94px;    
 }
 .w400{
     width: 419px;
@@ -280,12 +296,13 @@ button{
 }
 .smkt-cloud{
     overflow: visible;
-    background-size: cover;
+    /* background-size: cover; */
     background-position: center;
     background-image:url(/img/Group\ 1.png);
     background-repeat: no-repeat;
+    background-position:0 0;
 }
 .div{
-    width: 689.6px;
-    height: 423.6px;
+    width: 825.6px;
+    height: 774.6px;
 }
