@@ -285,8 +285,7 @@ button{
 
 .plus{
     padding-left: 261px;
-    display: flex;
-    margin-top: 94px;    
+    /* /* margin-top: 93px; */
     display: flex; 
     margin-top: 36px;    
 }
