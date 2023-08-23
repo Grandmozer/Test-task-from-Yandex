@@ -8,6 +8,19 @@
     <link rel="stylesheet" href="/css/stylsheet.css">
     <link rel="stylesheet" href="/css/reset.css">
     <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/media.css">
+    <script type="text/javascript">
+        jQuery(function($)
+         {
+        var $scroll_btn = $(".js-scrolltop");
+        
+            $scroll_btn.click(function () {
+                return $("body,html").animate({
+                    scrollTop: 0
+                }, 500);
+            });
+        });
+            </script>
 </head>
 <body>
     <main class="container">
@@ -25,7 +38,7 @@
                             3190 ₽</div>
                     </div>
                 </div>
-                <button class="btn">Стать частью клуба</button>
+                <button class="btn scrolltop js-scrolltop">Стать частью клуба</button>
             </div>
             <div class="hero-right col">
                 <img class="img-elips" src="/img/Ellipse 1972.svg" alt="">
@@ -37,19 +50,19 @@
             <h2 class="title">Вот что даёт участие в клубе</h2>
             <div class="cards">
                 <div class="card">
-                    <img src="/img/Frame 0 rub.svg" alt="">
+                    <div class="img-adv img-1"></div>
                     <p class="text txt">0 ₽ за старт в каждой поездке</p>
                 </div>
                 <div class="card">
-                    <img src="/img/Frame scooter.svg" alt="">
+                    <div class="img-adv img-2"></div>
                     <p class="text txt">Катаетесь с друзьями? Бронируйте до трёх самокатов с аккаунта с абонементом — так у всех будет бесплатный старт</p>
                 </div>
                 <div class="card">
-                    <img src="/img/Frame time.svg" alt="">
+                    <div class="img-adv img-3"></div>
                     <p class="text txt">Бесплатная пауза 15 минут в поездке — например, чтобы зайти за кофе или передохнуть</p>
                 </div>
                 <div class="card">
-                    <img src="/img/Frame charging.svg" alt="">
+                    <div class="img-adv img-4"></div>
                     <p class="text txt">
                         Если самокат недостаточно заряжен или с ним неудобно переходить дорогу, замените по пути на другой — это бесплатно
                         </p>
@@ -57,12 +70,11 @@
             </div>
         </div>
         <div class="events">
-            <!-- <div class="icons">
-                <div class="point"></div>
-                <div class="smkt"></div>
-                <div class="cfee"></div>
-            </div> -->
-            <h3 class="title mrr">Эксклюзивный доступ к событиям Самокатов</h3>
+            <h3 class="title mrr">Эксклюзивный доступ к событиям Самокатов</h3>   
+            <p class="mobile-text">
+                С абонементом — у вас доступ к специальным мероприятиям, скидки и классный мерч. В 2023 году мы танцевали на Даче Плюс с Антохой MC, катались на самокатах с Сергеем Мезенцевым и слушали хор Attaque de Panique
+            </p>
+            
             <div class="galary img">
                 <p class="mrt34 events-txt mrr">
                     С абонементом — у вас доступ к специальным мероприятиям, скидки и классный мерч. В 2023 году мы танцевали на Даче Плюс с Антохой MC, катались на самокатах с Сергеем Мезенцевым и слушали хор Attaque de Panique
