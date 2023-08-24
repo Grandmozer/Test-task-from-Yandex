@@ -1,6 +1,14 @@
 @media(min-width:376px){
-    .mobile-text{
+    .mobile-text,
+    .swiper,
+    .swiper-wrapper,
+    .swiper-slide,
+    .s-button-prev,
+    .s-button-next{
         display: none;
+    }
+    .swiper{
+        display: none !important;
     }
 }
 @media(max-width:376px){
@@ -178,4 +186,106 @@
         margin-top: 23px;
         margin-left: 32px;
     }
+    .swiper{
+        margin-top: 43px;
+        z-index: 2;
+    }
+    /* .cfee16{
+        width: 77.721px;
+        height: 39.418px;
+        background-image:url(/img/cfee0016-small.png);
+        background-repeat: no-repeat;
+        background-size: 77px;
+        position: relative;
+        z-index: 9999999;
+    } */
+    .swiper-wrapper{
+        margin-left: 15px !important;
+    }
+    .buttons-nav{
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+    }
+    .s-button-prev,
+    .s-button-next{
+        width:48px ;
+        height: 48px;
+        background-repeat: no-repeat;
+        cursor: pointer;
+    }
+    .s-button-next{
+        margin-left: 6px;
+        background-image:url(/img/right.svg);
+    }
+    .s-button-prev{
+        margin-right: 6px;
+        background-image:url(/img/left.svg);
+    }
+
+    /* PLUS */
+
+    .plus{
+        padding-left: 31px;
+        display :block; 
+        margin-top: 68px;    
+    }
+    .w400{
+        width: 311px;
+    }
+    .w400 .title{
+        width: 285px;
+    }
+    .mrt34{
+        margin-top: 23px;
+    }
+    .smkt-cloud {
+        display: none;
+    }
+
+    /* our users */
+
+    .our-users{
+        margin-left: 0px;
+        display: block;      
+    }
+    .smkt-around {
+        width: 384.2px;
+        height: 383.2px;
+        margin-top: 26px;
+        margin-right: 0px;
+        margin-left: -16px;
+        background-image: url(/img/Group\ 2087325525.png);
+        background-size: 138%;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    .our-users-text{
+        width: 311px;
+        margin-left: 32px;
+        margin-top: -42px;
+    }
+    .paragraph {
+        width: 283px;
+        padding-top: 22px;
+    }
+    .btn-our-users {
+        margin-top: 24px;
+    }
+
+    /* FOOTER */
+    .footer{
+        width: 311px;
+    }
+    .footer-text{
+        margin: 67px 32px 0px 32px;
+        color: #C5C5C5;
+    /* font-family: YS Text; */
+        font-size: 10px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 120%; /* 12px */
+    }
+
+
 }

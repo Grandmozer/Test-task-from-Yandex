@@ -9,6 +9,9 @@
     <link rel="stylesheet" href="/css/reset.css">
     <link rel="stylesheet" href="/css/style.css">
     <link rel="stylesheet" href="/css/media.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
     <script type="text/javascript">
         jQuery(function($)
          {
@@ -21,6 +24,7 @@
             });
         });
             </script>
+    <!-- <script defer src="/js/slider.js"></script> -->
 </head>
 <body>
     <main class="container">
@@ -74,7 +78,24 @@
             <p class="mobile-text">
                 С абонементом — у вас доступ к специальным мероприятиям, скидки и классный мерч. В 2023 году мы танцевали на Даче Плюс с Антохой MC, катались на самокатах с Сергеем Мезенцевым и слушали хор Attaque de Panique
             </p>
+            <div class="swiper">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+               
+                  <div class="swiper-slide"><img src="/img/01.png" alt=""></div>
+                  <div class="swiper-slide"><img src="/img/2.png" alt=""></div>
+                  <div class="swiper-slide"><img src="/img/3.png" alt=""></div>
+                  <div class="swiper-slide"><img src="/img/4.png" alt=""></div>
+                  
+                </div>
             
+                <!-- If we need navigation buttons -->
+                <div class="buttons-nav">
+                    <div class="s-button-prev"></div>
+                    <div class="s-button-next"></div>
+                </div>
+              </div>
             <div class="galary img">
                 <p class="mrt34 events-txt mrr">
                     С абонементом — у вас доступ к специальным мероприятиям, скидки и классный мерч. В 2023 году мы танцевали на Даче Плюс с Антохой MC, катались на самокатах с Сергеем Мезенцевым и слушали хор Attaque de Panique
@@ -107,5 +128,22 @@
             Доп. опция «Абонемент на самокаты» на 8 месяцев (240 дней) активируется автоматически с момента старта сезона 2024 г. самокатов Яндекс Go, далее предусмотрено автопродление доп.опции за 399 руб./мес. Сертификат на доп.опцию «Абонемент на самокаты» на 8 месяцев оформляется на условиях документа yandex.ru/legal/scooters_seasonpass. Доп.опция доступна пользователям с активной подпиской (условия подписки: yandex.ru/legal/yandex_plus_conditions), есть ограничения, подробнее: yandex.ru/legal/yandex_plus_opzii_list. В случае отсутствия у пользователя активной подписки на дату активации доп.опции, пользователю предоставляется 7 дней подписки Яндекс Плюс бесплатно, далее автопродление — 299 руб./мес. Электросамокаты Яндекс Go — сервис аренды электросамокатов на условиях: clck.ru/gwDGn. 0+
         </p>
     </footer>
+    <script type="text/javascript">
+        const swiper = new Swiper('.swiper', {
+            // Optional parameters
+            direction: 'horizontal',
+            loop: false,
+          
+            // // If we need pagination
+            // pagination: {
+            //   el: '.swiper-pagination',
+            // },
+          
+            // Navigation arrows
+            navigation: {
+              nextEl: '.s-button-next',
+              prevEl: '.s-button-prev',
+            },
+          });</script>
 </body>
 </html>
